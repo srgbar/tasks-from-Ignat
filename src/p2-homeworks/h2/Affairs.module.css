@@ -1,0 +1,57 @@
+.background {
+    background-color: #c4d1ee;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 20px;
+    margin-left: 40px;
+    background-color: #4bb692;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.item {
+    width: 100px;
+}
+
+.high {
+    color: #ea4c29;
+}
+
+.middle {
+    color: #efd44b;
+}
+
+.low {
+    color: #80139f;
+}
+
+.button {
+    width: 70px;
+    background-color: #194b30;
+    color: #99c099;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.button:focus {
+    background-color: #b01c1c;
+}
+
+.filterBlock {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}

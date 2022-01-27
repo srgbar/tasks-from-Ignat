@@ -1,0 +1,48 @@
+.container {
+    background-color: #f1e5b7;
+}
+
+.container1 {
+    width: 280px;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #e0dfdf;
+}
+
+.input:focus {
+    /*border: 2px solid #bea31c;*/
+    outline: none;
+}
+
+.inputError {
+    border: 3px solid red;
+    border-radius: 5px;
+    background-color: #e0dfdf;
+}
+
+.button {
+    width: 70px;
+    background-color: lightslategrey;
+    color: white;
+    border-radius: 5px;
+    /*margin: 5px;*/
+}
+
+.button:disabled {
+    background-color: indianred;
+}
+
+.span {
+    color: red;
+    height: 21px;
+}
