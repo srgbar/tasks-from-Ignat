@@ -1,5 +1,22 @@
 .default {
+    width: 70px;
+    background-color: lightslategrey;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
 
+.default:disabled {
+    background-color: indianred;
+}
+
+.default:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.default:focus {
+    background-color: green;
 }
 
 .red {
