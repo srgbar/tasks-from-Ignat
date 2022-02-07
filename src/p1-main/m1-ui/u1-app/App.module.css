@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik,wght@1,500&display=swap');
+
 .App {
-    background: #f4f5dc;
+    background: #fcf7fd;
+    min-height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 .title {

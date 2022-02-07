@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 280px;
+    padding: 8px;
+    margin: 10px;
+
+    transition-duration: 500ms;
+    transform: translate(-250px);
+}
+
+.container:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
+
+.link {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.link:hover {
+    color: red;
+}
+
+.active {
+    color: mediumvioletred;
+}
+
+.block {
+    width: 21px;
+    height: 21px;
+    margin-left: 10px;
+    background: darkslategrey;
+    border-radius: 50%;
+}
+
+.errorPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: orangered;
+}
