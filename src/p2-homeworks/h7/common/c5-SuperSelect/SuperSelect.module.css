@@ -1,0 +1,38 @@
+.select {
+    width: 100px;
+    padding: 5px;
+    padding-right: 30px;
+
+    cursor: pointer;
+    /*appearance: none;*/
+    background-color: #bde0bd;
+    /*background-image: url();*/
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+
+    border: 2px inset rgb(118, 118, 118);
+    color: #14324b;
+    font-size: 15px;
+}
+
+.select:focus {
+    outline: none;
+    border: 3px solid cornflowerblue;
+}
+
+.option {
+    /*color: #003300;*/
+    /*background: #99ff99;*/
+}
+
+.option:checked {
+    /*color: #003300;*/
+    /*background: #99ff99;*/
+}
+
+.option:hover {
+    box-shadow: 0 0 10px 100px #FED20F inset;
+    transition: all .2s ease-in-out;
+    background: red;
+}

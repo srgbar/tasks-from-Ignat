@@ -1,0 +1,15 @@
+.background {
+    background-color: #e4dcf3;
+}
+
+.block {
+    margin-left: 40px;
+}
+
+.span {
+    display: inline-block;
+    height: 31px;
+    padding-top: 10px;
+    cursor: pointer;
+    color: cornflowerblue;
+}
