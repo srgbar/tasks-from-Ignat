@@ -35,7 +35,6 @@ function HW8() {
 
     return (
         <div>
-            <hr/>
             homeworks 8
             <div className={s.table}>{finalPeople}</div>
             <div>
@@ -43,11 +42,8 @@ function HW8() {
                 <SuperButton onClick={sortDown}>sort up</SuperButton>
                 <SuperButton onClick={check18}>check 18</SuperButton>
             </div>
-
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativePeople/>*/}
-            <hr/>
         </div>
     )
 }

@@ -1,8 +1,7 @@
-import React, {MouseEventHandler, useState} from 'react'
+import React, {useState} from 'react'
 import SuperEditableSpan from './common/c4-SuperEditableSpan/SuperEditableSpan'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {restoreState, saveState} from './localStorage/localStorage'
-import st from "../../p1-main/m1-ui/u1-app/App.module.css";
 import s from "./localStorage/HW6.module.css";
 
 function HW6() {
@@ -16,13 +15,12 @@ function HW6() {
     }
 
     return (
-        <div className={s.background}>
-
+        <div>
             <hr/>
-            <div className={st.title}> homeworks 6</div>
+            <div>homeworks 6</div>
             {/*should work (должно работать)*/}
             <div className={s.block}>
-                <div >
+                <div>
                     <SuperEditableSpan
                         value={value}
                         onChangeText={setValue}
@@ -33,13 +31,9 @@ function HW6() {
                 <SuperButton onClick={save}>save</SuperButton>
                 <SuperButton onClick={restore}>restore</SuperButton>
             </div>
-
-
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeSuperEditableSpan/>*/}
             <hr/>
-
         </div>
     )
 }

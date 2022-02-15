@@ -40,9 +40,9 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id)) // need to fix any
 
     return (
-        <div className={s.background}>
+        <div>
             <hr/>
-            <div className={st.title}>homeworks 2</div>
+            <div>homeworks 2</div>
 
             {/*should work (должно работать)*/}
             <Affairs
@@ -51,10 +51,8 @@ function HW2() {
                 deleteAffairCallback={deleteAffairCallback}
             />
 
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeAffairs/>*/}
-            <hr/>
         </div>
     )
 }
