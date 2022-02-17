@@ -1,7 +1,7 @@
 .default {
     width: 70px;
-    background-color: lightslategrey;
-    color: white;
+    background-color: #c9dcef;
+    color: black;
     border-radius: 5px;
     margin: 5px;
 }
@@ -11,12 +11,13 @@
 }
 
 .default:hover {
-    background-color: lightgreen;
-    color: black;
+    background-color: #c9dcef;
+    border: 2px solid cyan;
 }
 
 .default:focus {
-    background-color: green;
+    background-color: #618db6;
+    color: white;
 }
 
 .red {

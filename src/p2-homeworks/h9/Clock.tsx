@@ -38,13 +38,13 @@ function Clock() {
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
             >
-                {showTime && <div>Time: {stringTime}</div>}
-                {!showTime && <div className={s.stopTime}>Time: {stringTime}</div>}
+                {showTime && <div>{stringTime}</div>}
+                {!showTime && <div className={s.stopTime}>{stringTime}</div>}
             </div>
 
             {show ? (
                 <div>
-                    Date: {stringDate}
+                    {stringDate}
                 </div>
             ) : (
                 <br/>
